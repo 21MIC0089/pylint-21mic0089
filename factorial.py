@@ -1,3 +1,4 @@
+#21mic0089
 import time
 
 def factorial(n):
@@ -13,7 +14,7 @@ def sum_factorial():
     factorial_list = [factorial(i) for i in range(50)]
     result = sum(factorial_list)
     
-    print("Final SUM = {}".format(result))
+    print("Final result = {}".format(result))
     return result
 
 if _name_ == "_main_":
